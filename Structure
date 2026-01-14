@@ -1,0 +1,29 @@
+nia-governess/
+├── app/                      # Next.js App Router
+│   ├── api/
+│   │   ├── llm/route.ts
+│   │   ├── policy/route.ts
+│   │   └── audit/route.ts
+│   ├── page.tsx
+│   └── layout.tsx
+├── lib/
+│   ├── llm/
+│   │   ├── azure.ts
+│   │   ├── grok.ts
+│   │   └── router.ts
+│   ├── policy/opa.ts
+│   ├── budget/limits.ts
+│   └── audit/logger.ts
+├── public/
+│   ├── manifest.json
+│   └── icon.png
+├── terraform/
+│   ├── provider.tf
+│   ├── main.tf
+│   ├── keyvault.tf
+│   └── outputs.tf
+├── .github/workflows/deploy.yml
+├── .env.local                # ignored
+├── .gitignore
+├── README.md
+└── package.json
